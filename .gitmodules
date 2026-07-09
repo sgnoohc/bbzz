@@ -1,0 +1,3 @@
+[submodule "code/rdfutil"]
+	path = code/rdfutil
+	url = git@github.com:sgnoohc/rdfutil.git

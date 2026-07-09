@@ -1,0 +1,22 @@
+# --- Large data inputs (fetched with dl.sh, ~5 GB) ---
+mc/
+*.root
+
+# --- Generated file lists (rebuild with make_filelist.sh) ---
+filelists/*.txt
+
+# --- Build artifacts ---
+create_fourlepton_ntuple
+create_dilepton_ntuple
+*.o
+*.so
+*.d
+
+# --- SLURM logs / scratch ---
+logs/
+.filelist_clean.txt
+
+# --- Editor / OS cruft ---
+*.swp
+*~
+.DS_Store
