@@ -2,8 +2,9 @@
 mc/
 *.root
 
-# --- Generated file lists (rebuild with make_filelist.sh) ---
-filelists/*.txt
+# NOTE: filelists/*.txt are intentionally tracked — they hold absolute /blue
+# paths to the shared HPG inputs and are meant to be shared. Rebuild with
+# make_filelist.sh if the mc/ contents change.
 
 # --- Build artifacts ---
 create_fourlepton_ntuple
